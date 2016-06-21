@@ -201,5 +201,21 @@ class TestSIL(TestJson):
                      (skeys[1], q['key']), method='POST')
         self.assertIn(q['key'], seen)  # Cached question
 
+
+class TestPGN(TestJson):
+
+    def test_split(self):
+        skey = self.create_sources(1)[0]
+        with open('data/test.pgn') as f:
+            d = self.ask('/source/%s/opening' %
+                         skey, POST={'pgn': f.read(), 'color': 'b'})
+
+        self.assertEqual(len(d['keys']), 3)
+
+        d = self.ask('/fact')
+
+        self.assertEqual(len(d['keys']), 3)
+
+
 if __name__ == '__main__':
     unittest.main()

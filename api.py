@@ -8,18 +8,56 @@ from google.appengine.api import users, memcache
 from google.appengine.ext import ndb
 
 import sil_model
+import split_pgn
 
 CHUNK_SIZE = 10
 """
---
-import PGN file to facts
- importera py-chess idiomatiskt
- ladda upp pgn och splitta
- Lägg in splits i db på lämpligt format
-
-test
+Lagra start-FEN + lista på drag
+lös de alternativa dragen i parsning
+ Förmodligen genom att jag först parsear till Game och sedan traverserar själv, i stället för en Visitor.
+lägg till kommentarer (kommentarer på en ställning är kommentarer till draget efter, tror jag. Får tänka. Kanske inte.)
+Markera drag med om de är automatiska eller "förhör"
+Lagra också board-orientation
 ---
-uppdatera fakta (t.ex kommentarer)
+enkelt interface
+ Bräde där man kan göra drag integrerat med chess.js
+ ladda facit från backend
+ Matcha drag mot facit, när slutet nåtts visa "next"-knapp.
+ Om fel, visa rätt drag och tillåt (förmodligen kräv) fortsättning (men visa "fail")
+ Om ett av ok-dragen (bivarianter i PGN), säg "OK, men jag tänkte mig en annan variant"
+ Visa dragnummer eller parti (game.pgn) under brädet.
+ Visa kommentarer för ett drag efter att det gjorts eller misslyckats
+ Visa statistik för nuvarande källa
+ mobilvänligt / responsiv
+ promovera till annat än dam
+-
+ Översiktsida
+  CRUD:a källor
+  Ladda upp PGN
+  Visa statistik
+  Välja källa för träning
+  mobilvänlig / responsiv
+
+--- LATER ---
+Memorize games:
+ upload games with masks for which moves are good
+ paste PGN, incl start-FEN
+ maybe import from chessgames.com?
+ "forgive me"-knapp som säger att draget inte ska räknas som fel
+
+Instant assessment:
+ Autogenerate such FENs + score from DB
+ Way to input and score assessment
+
+Semi-blind tactics:
+ find games with tactic (crawl or calculate, preferably crawl)
+ Show position X moves before
+
+More fact management:
+ update facts (comments)
+ reload PGN and update
+ inaktivera fact
+ list facts for source (so can reactivate)
 """
 
 
@@ -181,6 +219,27 @@ class SourceStat(RestHandler):
 
         self.jsonify({'total': tot, 'left': left})
 
+
+class AddOpening(RestHandler):
+
+    def post(self, source_id):
+        user = users.get_current_user()
+        source = ndb.Key(sil_model.Source, long(source_id))
+        color = self.request.get('color')
+
+        def make_fact(pgn):
+            fact = sil_model.Factlet(
+                parent=source,
+                userid=user.user_id(),
+                fact=json.dumps({'pgn': pgn, 'color': color}),
+            )
+            return fact
+
+        pgns = split_pgn.split_pgn(self.request.get('pgn'), color == 'w')
+        keys = ndb.put_multi([make_fact(pgn) for pgn in pgns])
+
+        self.jsonify({'keys': [key.id() for key in keys]})
+
 app = webapp2.WSGIApplication([
     ('/', MainPage),
     ('/fact', CreateFact),
@@ -190,6 +249,7 @@ app = webapp2.WSGIApplication([
     ('/source/(\d+)/(\d+)/(success|fail)', Answer),
     ('/source/(\d+)/next', SourceLearner),
     ('/source/(\d+)/stat', SourceStat),
+    ('/source/(\d+)/opening', AddOpening)
 
 
 ], debug=True)

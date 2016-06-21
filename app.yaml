@@ -1,17 +1,26 @@
 application: silly-chess
-version: alpha-001
+version: alpha-002
 runtime: python27
 api_version: 1
 threadsafe: true
 
 handlers:
 
+- url: /js
+  static_dir: static/js
+
+- url: /css
+  static_dir: static/css
+
+- url: /img
+  static_dir: static/img
+
+- url: /board
+  static_files: static/board.html
+  upload: static/board.html
+
 - url: /stylesheets
   static_dir: stylesheets
-
-- url: /(.*\.(gif|png|jpg))$
-  static_files: static/\1
-  upload: static/.*\.(gif|png|jpg)$
 
 - url: /.*
   script: api.app
