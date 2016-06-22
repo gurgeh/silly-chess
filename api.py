@@ -12,13 +12,6 @@ import split_pgn
 
 CHUNK_SIZE = 10
 """
-Lagra start-FEN + lista på drag
-lös de alternativa dragen i parsning
- Förmodligen genom att jag först parsear till Game och sedan traverserar själv, i stället för en Visitor.
-lägg till kommentarer (kommentarer på en ställning är kommentarer till draget efter, tror jag. Får tänka. Kanske inte.)
-Markera drag med om de är automatiska eller "förhör"
-Lagra också board-orientation
----
 enkelt interface
  Bräde där man kan göra drag integrerat med chess.js
  ladda facit från backend
@@ -231,7 +224,7 @@ class AddOpening(RestHandler):
             fact = sil_model.Factlet(
                 parent=source,
                 userid=user.user_id(),
-                fact=json.dumps({'pgn': pgn, 'color': color}),
+                fact=json.dumps({'moves': pgn, 'orientation': color}),  # use 'fen' for start positions
             )
             return fact
 

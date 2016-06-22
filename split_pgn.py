@@ -26,6 +26,31 @@ class Splitter(chess.pgn.BaseVisitor):
 
 def split_pgn(s, turn):
     g = chess.pgn.read_game(StringIO.StringIO(s))
-    splitter = Splitter(turn)
-    g.accept(splitter)
-    return splitter.games
+    curline = []
+    lines = []
+
+    def rec_split(node):
+        nrchildren = len(node.variations)
+        if nrchildren == 0:
+            lines.append(curline.copy())
+
+        okmoves = None
+        if nrchildren > 1:
+            okmoves = [v.san() for v in node.variations]
+
+        for v in node.variations:
+            d = {'move': v.san()}
+            if okmoves:
+                ok2 = okmoves.copy()
+                ok2.remove(v.san())
+                d['ok'] = ok2
+            if turn == node.board().turn:
+                d['ask'] = True
+            if v.comment:
+                d['comment'] = v.comment
+            curline.append(d)
+            rec_split(v)
+            curline.pop()
+
+    rec_split(g)
+    return lines
