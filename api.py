@@ -13,7 +13,6 @@ import split_pgn
 CHUNK_SIZE = 10
 """
 enkelt interface
- Bräde där man kan göra drag integrerat med chess.js
  ladda facit från backend
  Matcha drag mot facit, när slutet nåtts visa "next"-knapp.
  Om fel, visa rätt drag och tillåt (förmodligen kräv) fortsättning (men visa "fail")
@@ -224,7 +223,8 @@ class AddOpening(RestHandler):
             fact = sil_model.Factlet(
                 parent=source,
                 userid=user.user_id(),
-                fact=json.dumps({'moves': pgn, 'orientation': color}),  # use 'fen' for start positions
+                # use 'fen' for start positions
+                fact=json.dumps({'moves': pgn, 'orientation': color}),
             )
             return fact
 

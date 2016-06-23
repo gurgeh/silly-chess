@@ -32,7 +32,7 @@ def split_pgn(s, turn):
     def rec_split(node):
         nrchildren = len(node.variations)
         if nrchildren == 0:
-            lines.append(curline.copy())
+            lines.append(curline[:])
 
         okmoves = None
         if nrchildren > 1:
@@ -41,7 +41,7 @@ def split_pgn(s, turn):
         for v in node.variations:
             d = {'move': v.san()}
             if okmoves:
-                ok2 = okmoves.copy()
+                ok2 = okmoves[:]
                 ok2.remove(v.san())
                 d['ok'] = ok2
             if turn == node.board().turn:
