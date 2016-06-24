@@ -18,6 +18,7 @@ handlers:
 - url: /board
   static_files: static/board.html
   upload: static/board.html
+  login: required
 
 - url: /stylesheets
   static_dir: stylesheets

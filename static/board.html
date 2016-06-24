@@ -3,7 +3,12 @@
     <link rel="stylesheet" href="css/chessboard-0.3.0.min.css" />
   </head>
   <body>
-    <div id="board" style="width: 400px"></div>
+    <div id="maincol" style="max-width:600px">
+    <div id="toptext"><span id="message"></span>&nbsp;<span id="status" style="float: right;text-align: right">&nbsp;</span></div>
+    <div id="board"></div>
+    <div id="comment"></div>
+    <div id="pgn">pgn</div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
     <script src="js/chessboard-0.3.0.min.js"></script>
     <script src="js/chess.min.js"></script>

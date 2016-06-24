@@ -46,8 +46,8 @@ def split_pgn(s, turn):
                 d['ok'] = ok2
             if turn == node.board().turn:
                 d['ask'] = True
-            if v.comment:
-                d['comment'] = v.comment
+            if v.comment.strip():
+                d['comment'] = v.comment.strip()
             curline.append(d)
             rec_split(v)
             curline.pop()

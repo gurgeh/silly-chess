@@ -13,22 +13,23 @@ import split_pgn
 CHUNK_SIZE = 10
 """
 enkelt interface
- ladda facit från backend
- Matcha drag mot facit, när slutet nåtts visa "next"-knapp.
- Om fel, visa rätt drag och tillåt (förmodligen kräv) fortsättning (men visa "fail")
- Om ett av ok-dragen (bivarianter i PGN), säg "OK, men jag tänkte mig en annan variant"
- Visa dragnummer eller parti (game.pgn) under brädet.
- Visa kommentarer för ett drag efter att det gjorts eller misslyckats
- Visa statistik för nuvarande källa
- mobilvänligt / responsiv
- promovera till annat än dam
+ Ladda upp testpgn med
+  olika orientation
+  flera okmoves
+  kommentarer
+  promovering
+  rockad
+  passant
+  flera icke-ask moves i rad
 -
  Översiktsida
-  CRUD:a källor
-  Ladda upp PGN
-  Visa statistik
-  Välja källa för träning
-  mobilvänlig / responsiv
+  + Create New Source (name)
+  - Delete Source (are you sure?)
+  - Upload PGN (choose file, choose side)
+  - Show source statistics
+  - Click to train
+
+ Board statistics
 
 --- LATER ---
 Memorize games:
@@ -36,6 +37,7 @@ Memorize games:
  paste PGN, incl start-FEN
  maybe import from chessgames.com?
  "forgive me"-knapp som säger att draget inte ska räknas som fel
+ Promote to other than queen
 
 Instant assessment:
  Autogenerate such FENs + score from DB
@@ -50,6 +52,8 @@ More fact management:
  reload PGN and update
  inaktivera fact
  list facts for source (so can reactivate)
+
+Custom CSS for mobile
 """
 
 
@@ -233,6 +237,34 @@ class AddOpening(RestHandler):
 
         self.jsonify({'keys': [key.id() for key in keys]})
 
+
+class StageData(RestHandler):
+
+    def get(self):
+        user = users.get_current_user()
+
+        source = sil_model.Source(userid=user.user_id(),
+                                  name='stage',
+                                  fact_type='opening')
+        source.put()
+
+        color = 'b'
+
+        def make_fact(pgn):
+            fact = sil_model.Factlet(
+                parent=source.key,
+                userid=user.user_id(),
+                # use 'fen' for start positions
+                fact=json.dumps({'moves': pgn, 'orientation': color}),
+            )
+            return fact
+
+        pgns = split_pgn.split_pgn(open('data/black.pgn').read(), color == 'w')
+        keys = ndb.put_multi([make_fact(pgn) for pgn in pgns])
+
+        self.jsonify(source.key.id())
+
+
 app = webapp2.WSGIApplication([
     ('/', MainPage),
     ('/fact', CreateFact),
@@ -242,7 +274,8 @@ app = webapp2.WSGIApplication([
     ('/source/(\d+)/(\d+)/(success|fail)', Answer),
     ('/source/(\d+)/next', SourceLearner),
     ('/source/(\d+)/stat', SourceStat),
-    ('/source/(\d+)/opening', AddOpening)
+    ('/source/(\d+)/opening', AddOpening),
+    ('/stagedata', StageData)
 
 
 ], debug=True)

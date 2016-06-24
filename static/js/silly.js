@@ -1,5 +1,63 @@
-var board,
-  game = new Chess();
+var board;
+var game = new Chess();
+
+var curid;
+var sourceid = '6192449487634432';
+var moves;
+var movenr = 0;
+var fail = false;
+var debugdata;
+
+var cfg;
+
+function getNext(data){
+    reset();
+    var fact = $.parseJSON(data['fact']);
+    debugdata = data;
+    curid = data['key'];
+    moves = fact['moves'];
+    if(fact.orientation == 'b')
+        board.orientation('black');
+
+    maybeAutoMove();
+}
+
+function nextUrl(){
+    var suffix = 'success';
+    if(fail) suffix = 'fail';
+    return '/source/' + sourceid + '/' + curid + '/' + suffix;
+}
+
+function reset(){
+    board = ChessBoard('board', cfg);
+    game = new Chess();
+    movenr = 0;
+    fail = false;
+    $('#message').html('&nbsp;');
+    $('#status').html('&nbsp;');
+    $('#comment').text('');
+    $('#pgn').text('');
+}
+
+
+function delayedAutoMove(){
+    setTimeout(maybeAutoMove, 100);
+}
+
+function maybeAutoMove(){
+    if(movenr == moves.length){
+        $('#message').html("<a onclick='$.post(nextUrl(), getNext)' href='#'>Next!</a>");
+        return;
+    }
+    if(moves[movenr]['ask']){
+        return;
+    }
+    game.move(moves[movenr].move, {sloppy: true});
+    board.position(game.fen());
+    movenr++;
+    $('#pgn').text(game.pgn());
+    delayedAutoMove();
+}
 
 var removeGreySquares = function() {
   $('#board .square-55d63').css('background', '');
@@ -27,17 +85,37 @@ var onDragStart = function(source, piece) {
 };
 
 var onDrop = function(source, target) {
-  removeGreySquares();
+    removeGreySquares();
 
-  // see if the move is legal
-  var move = game.move({
-    from: source,
-    to: target,
-    promotion: 'q' // NOTE: always promote to a queen for example simplicity
-  });
+    // see if the move is legal
+    var move = game.move({
+        from: source,
+        to: target,
+        promotion: 'q' // TODO: promotion choice
+    });
 
-  // illegal move
-  if (move === null) return 'snapback';
+    if (move === null) return 'snapback';
+
+    if(move.san != moves[movenr].move){
+        if($.inArray(move.san, moves[movenr].ok) != -1){
+            $('#message').text('Good move, but try another');
+        } else {
+            $('#message').text('Expected ' + moves[movenr].move);
+            $('#status').text('Failed');
+            fail = true;
+            console.log(move.san + " != " + moves[movenr].move);
+        }
+        game.undo();
+        return 'snapback';
+    }
+    $('#message').html('&nbsp;');
+    if (moves[movenr].comment)
+        $('#comment').text(moves[movenr].comment);
+    else
+        $('#comment').text('');
+
+    movenr++;
+    delayedAutoMove();
 };
 
 var onMouseoverSquare = function(square, piece) {
@@ -64,16 +142,32 @@ var onMouseoutSquare = function(square, piece) {
 };
 
 var onSnapEnd = function() {
-  board.position(game.fen());
+    board.position(game.fen());
+    $('#pgn').text(game.pgn());
 };
 
-var cfg = {
-  draggable: true,
-  position: 'start',
-  onDragStart: onDragStart,
-  onDrop: onDrop,
-  onMouseoutSquare: onMouseoutSquare,
-  onMouseoverSquare: onMouseoverSquare,
-  onSnapEnd: onSnapEnd
+cfg = {
+    draggable: true,
+    position: 'start',
+    onDragStart: onDragStart,
+    onDrop: onDrop,
+    onMouseoutSquare: onMouseoutSquare,
+    onMouseoverSquare: onMouseoverSquare,
+    onSnapEnd: onSnapEnd
 };
-board = ChessBoard('board', cfg);
+
+$( document ).ready(function(){
+    $.get("/source/" + sourceid + "/next", getNext);
+});
+
+//Make adaptive with this
+function adjustStyle(width) {
+    width = parseInt(width);
+    if (width < 701) {
+        $("#size-stylesheet").attr("href", "css/narrow.css");
+    } else if (width < 900) {
+        $("#size-stylesheet").attr("href", "css/medium.css");
+    } else {
+        $("#size-stylesheet").attr("href", "css/wide.css");
+    }
+}
