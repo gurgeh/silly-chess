@@ -1,7 +1,8 @@
 # coding: utf-8
 
 import json
-
+import datetime
+import hashlib
 import webapp2
 
 from google.appengine.api import users, memcache
@@ -12,24 +13,9 @@ import split_pgn
 
 CHUNK_SIZE = 10
 """
-enkelt interface
- Ladda upp testpgn med
-  olika orientation
-  flera okmoves
-  kommentarer
-  promovering
-  rockad
-  passant
-  flera icke-ask moves i rad
--
- Översiktsida
-  + Create New Source (name)
-  - Delete Source (are you sure?)
-  - Upload PGN (choose file, choose side)
-  - Show source statistics
-  - Click to train
+Testa från GAE
 
- Board statistics
+Make sample opening PGN
 
 --- LATER ---
 Memorize games:
@@ -47,13 +33,16 @@ Semi-blind tactics:
  find games with tactic (crawl or calculate, preferably crawl)
  Show position X moves before
 
+Make design nicer with semantic UI instead of jquery ui
+
 More fact management:
- update facts (comments)
- reload PGN and update
+ keep fact times for same ID
  inaktivera fact
  list facts for source (so can reactivate)
+ delete facts when source deleted
 
 Custom CSS for mobile
+Fix open new window, board bug
 """
 
 
@@ -118,7 +107,7 @@ class CreateSource(RestHandler):
             sil_model.Source.userid == user.user_id())
 
         self.jsonify(
-            {'keys': [key.id() for key in query.iter(keys_only=True)]})
+            {'sources': [source.to_jdict() for source in query.iter()]})
 
     def post(self):
         user = users.get_current_user()
@@ -135,7 +124,7 @@ class SingleSource(RestHandler):
     def get(self, source_id):
         source = ndb.Key(sil_model.Source, long(source_id)).get()
 
-        d = source.to_dict()
+        d = source.to_jdict()
         d['facts'] = [f.to_jdict()
                       for f in sil_model.Factlet.query_source(source_id)]
         self.jsonify(d)
@@ -156,16 +145,17 @@ class CreateFact(RestHandler):
 
     def post(self):
         user = users.get_current_user()
+        fact = self.request.get('fact').encode('utf8')
 
-        fact = sil_model.Factlet(
+        fact_obj = sil_model.Factlet(
             parent=ndb.Key(sil_model.Source, long(
                 self.request.get('source_id'))),
             userid=user.user_id(),
-            fact=self.request.get('fact').encode('utf8'),
+            fact=fact,
         )
-        fact.put()
+        fact_obj.put()
 
-        self.jsonify({'key': fact.key.id()})
+        self.jsonify({'key': fact_obj.key.id()})
 
 
 class SingleFact(RestHandler):
@@ -213,7 +203,14 @@ class SourceStat(RestHandler):
         tot = sil_model.Factlet.count(user.user_id(), source_id)
         left = sil_model.Factlet.count_left(user.user_id(), source_id)
 
-        self.jsonify({'total': tot, 'left': left})
+        nextfact = sil_model.Factlet.get_next(user.user_id(), source_id)
+        if nextfact:
+            next = (nextfact.next_scheduled -
+                    datetime.datetime(1970, 1, 1)).total_seconds()
+        else:
+            next = 0
+        self.jsonify({'total': tot, 'left': left, 'key': source_id,
+                      'next': next})
 
 
 class AddOpening(RestHandler):
@@ -224,8 +221,12 @@ class AddOpening(RestHandler):
         color = self.request.get('color')
 
         def make_fact(pgn):
+            hid = hashlib.md5(
+                user.user_id() + ''.join(x['move'] for x in pgn)).hexdigest()
+            hid = int(hid[:14], 16)
             fact = sil_model.Factlet(
                 parent=source,
+                id=hid,
                 userid=user.user_id(),
                 # use 'fen' for start positions
                 fact=json.dumps({'moves': pgn, 'orientation': color}),

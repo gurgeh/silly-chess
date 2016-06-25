@@ -68,13 +68,13 @@ class TestCRUD(TestJson):
 
     def test_create_source(self):
         d = self.ask('/source')
-        self.assertEqual(d['keys'], [])
+        self.assertEqual(d['sources'], [])
 
         keys = self.create_sources(15)
 
         d = self.ask('/source')
-        self.assertEqual(len(d['keys']), 15)
-        self.assertEqual(set(d['keys']), set(keys))
+        self.assertEqual(len(d['sources']), 15)
+        self.assertEqual(set(x['key'] for x in d['sources']), set(keys))
 
         d = self.ask('/source/%s' % keys[1])
         self.assertEqual(d['name'], 'n1')
@@ -84,12 +84,12 @@ class TestCRUD(TestJson):
         keys = self.create_sources(2)
 
         d = self.ask('/source')
-        self.assertEqual(len(d['keys']), 2)
+        self.assertEqual(len(d['sources']), 2)
 
         d = self.ask('/source/%s' % keys[0], method='DELETE')
 
         d = self.ask('/source')
-        self.assertEqual(d['keys'], [keys[1]])
+        self.assertEqual([x['key'] for x in d['sources']], [keys[1]])
 
     def test_create_fact(self):
         skeys = self.create_sources(2)
@@ -123,6 +123,28 @@ class TestCRUD(TestJson):
 
         d = self.ask('/source/%s' % skeys[0])
         self.assertEqual([x['key'] for x in d['facts']], [fkey1])
+
+
+class TestStat(TestJson):
+    NRSOURCES = 2
+    NRFACTS = 1
+
+    def tet_success(self):
+        skeys = self.create_sources(self.NRSOURCES)
+        fkeys = self.create_facts(skeys[1], self.NRFACTS)
+
+        stat = self.ask('/source/%s/stat' % skeys[1])
+        print stat
+
+        self.ask('/source/%s/%s/success' %
+                 (skeys[1], fkeys[0]), method='POST')
+        stat = self.ask('/source/%s/stat' % skeys[1])
+        print stat
+
+        stat = self.ask('/source/%s/stat' % skeys[1])
+        print stat
+        import time
+        print time.time()
 
 
 class TestSIL(TestJson):

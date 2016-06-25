@@ -14,13 +14,22 @@ def fix_datetime(d):
     return d
 
 
-class Source(ndb.Model):
+class JsonModel(ndb.Model):
+
+    def to_jdict(self):
+        d = self.to_dict()
+        fix_datetime(d)
+        d['key'] = self.key.id()
+        return d
+
+
+class Source(JsonModel):
     userid = ndb.StringProperty(required=True)
     name = ndb.TextProperty()
     fact_type = ndb.StringProperty()
 
 
-class Factlet(ndb.Model):
+class Factlet(JsonModel):
     userid = ndb.StringProperty(required=True)
     fact = ndb.BlobProperty(required=True)
     added = ndb.DateTimeProperty(auto_now_add=True)
@@ -71,9 +80,11 @@ class Factlet(ndb.Model):
 
     @classmethod
     def count_left(cls, userid, source_id=None):
+        now = datetime.datetime.now()
         q = cls.get_fact_query(userid, source_id)
-        q.filter(cls.next_scheduled <= datetime.datetime.now())
-        return q.count(1000)
+        q = q.filter(cls.next_scheduled <= now)
+        cnt = q.count(1000)
+        return cnt
 
     @classmethod
     def get_next(cls, userid, source_id=None):

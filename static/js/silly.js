@@ -19,6 +19,15 @@ function getNext(data){
     if(fact.orientation == 'b')
         board.orientation('black');
 
+    $.ajax({url: "/source/" + sourceid + "/stat", success: function(stat){
+        var dt = new Date(stat['next'] * 1000);
+
+        var localnext = new Date(dt.getTime() - (dt.getTimezoneOffset() * 60000));
+        mess = stat['left'] + ' / ' + stat['total'] + ' due, next: ' + localnext.toISOString();
+        $('#message').text(mess);
+    }, cache: false});
+
+
     maybeAutoMove();
 }
 
@@ -157,6 +166,8 @@ cfg = {
 };
 
 $( document ).ready(function(){
+    sourceid = window.location.hash.substr(1);
+    console.log(sourceid);
     $.get("/source/" + sourceid + "/next", getNext);
 });
 

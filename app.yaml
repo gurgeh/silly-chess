@@ -15,6 +15,11 @@ handlers:
 - url: /img
   static_dir: static/img
 
+- url: /
+  static_files: static/overview.html
+  upload: static/overview.html
+  login: required
+
 - url: /board
   static_files: static/board.html
   upload: static/board.html
