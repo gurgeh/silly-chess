@@ -2,7 +2,7 @@ var board;
 var game = new Chess();
 
 var curid;
-var sourceid = '6192449487634432';
+var sourceid;
 var moves;
 var movenr = 0;
 var fail = false;
@@ -15,6 +15,7 @@ function getNext(data){
     var fact = $.parseJSON(data['fact']);
     debugdata = data;
     curid = data['key'];
+    console.log('id is ' + curid);
     moves = fact['moves'];
     if(fact.orientation == 'b')
         board.orientation('black');
@@ -55,7 +56,7 @@ function delayedAutoMove(){
 
 function maybeAutoMove(){
     if(movenr == moves.length){
-        $('#message').html("<a onclick='$.post(nextUrl(), getNext)' href='#'>Next!</a>");
+        $('#message').html("<a onclick='$.post(nextUrl(), getNext)' href='#" + sourceid + "'>Next!</a>");
         return;
     }
     if(moves[movenr]['ask']){

@@ -19,7 +19,7 @@ class JsonModel(ndb.Model):
     def to_jdict(self):
         d = self.to_dict()
         fix_datetime(d)
-        d['key'] = self.key.id()
+        d['key'] = str(self.key.id())
         return d
 
 
@@ -57,12 +57,6 @@ class Factlet(JsonModel):
         self.next_scheduled = now + \
             datetime.timedelta(0, self.cur_increase * 60)
         self.last_seen = now
-
-    def to_jdict(self):
-        d = self.to_dict()
-        fix_datetime(d)
-        d['key'] = self.key.id()
-        return d
 
     @classmethod
     def get_fact_query(cls, userid, source_id=None):

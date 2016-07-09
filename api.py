@@ -13,17 +13,16 @@ import split_pgn
 
 CHUNK_SIZE = 10
 """
-Testa från GAE
-
 Make sample opening PGN
+parse_stm verkar inte klara kommentarer (med åäö?)
 
 --- LATER ---
 Memorize games:
- upload games with masks for which moves are good
- paste PGN, incl start-FEN
+ find worthy games
  maybe import from chessgames.com?
+ choose source type
+ if source is "game", choose moves
  "forgive me"-knapp som säger att draget inte ska räknas som fel
- Promote to other than queen
 
 Instant assessment:
  Autogenerate such FENs + score from DB
@@ -32,6 +31,7 @@ Instant assessment:
 Semi-blind tactics:
  find games with tactic (crawl or calculate, preferably crawl)
  Show position X moves before
+ Promote to other than queen
 
 Make design nicer with semantic UI instead of jquery ui
 
@@ -41,6 +41,8 @@ More fact management:
  list facts for source (so can reactivate)
  delete facts when source deleted
 
+Ta bort omedelbar stat, efter create
+Create-spinner
 Custom CSS for mobile
 Fix open new window, board bug
 """
@@ -233,7 +235,7 @@ class AddOpening(RestHandler):
             )
             return fact
 
-        pgns = split_pgn.split_pgn(self.request.get('pgn'), color == 'w')
+        pgns = split_pgn.split_pgns(self.request.get('pgn'), color == 'w')
         keys = ndb.put_multi([make_fact(pgn) for pgn in pgns])
 
         self.jsonify({'keys': [key.id() for key in keys]})

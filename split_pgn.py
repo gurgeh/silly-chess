@@ -24,15 +24,26 @@ class Splitter(chess.pgn.BaseVisitor):
         self.move = move
 
 
+def split_pgns(s, turn):
+    lines = []
+    for offset in chess.pgn.scan_offsets(StringIO.StringIO(s)):
+        lines.extend(split_pgn(s[offset:], turn))
+    return lines
+
+
 def split_pgn(s, turn):
     g = chess.pgn.read_game(StringIO.StringIO(s))
     curline = []
     lines = []
+    seen = set()
 
     def rec_split(node):
         nrchildren = len(node.variations)
         if nrchildren == 0:
-            lines.append(curline[:])
+            fen = node.board().fen()
+            if fen not in seen:
+                seen.add(fen)
+                lines.append(curline[:])
 
         okmoves = None
         if nrchildren > 1:
@@ -54,3 +65,7 @@ def split_pgn(s, turn):
 
     rec_split(g)
     return lines
+
+if __name__ == '__main__':
+    import sys
+    print split_pgn(open(sys.argv[1]).read(), sys.argv[2] == 'w')

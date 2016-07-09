@@ -6,20 +6,25 @@ import sys
 
 import chess.pgn
 
+import parse_stm2
+
+MOVE_REX_S = "{([^ ]+) [^ ]+ \w+ (?:{([^}]*)}|([^ ]+)) [^ ]+ [^ ]+}"
+
 POSITION_REX = re.compile(
     "{([\w\d/]+ [wb] [KkQq\-]+ .\d?)}")
 STM_REX = re.compile(
-    "{([\w\d/]+ [wb] [KkQq\-]+ .\d?)} {{((?:{([^ ]+) [^ ]+ \w+ ({Error reading move\: [^}]+}|[^ ]+) [^ ]+ [^ ]+} ?)*)} {}}")
+    "{([\w\d/]+ [wb] [KkQq\-]+ .\d?)} {{((?:" + MOVE_REX_S + " ?)*)} {}}", re.U)
 MOVE_REX = re.compile(
-    "{([^ ]+) [^ ]+ \w+ ({Error reading move\: [^}]+}|[^ ]+) [^ ]+ [^ ]+}")
+    MOVE_REX_S, re.U)
 
-
+"""
 def parse_stm(s):
     i = s.find('{')
     s = s[i:]
     s = s.replace('\\}', ']')
     s = s.replace('\\{', '[')
     s = s.replace('\ ', '\t')
+    open('/tmp/test.stm', 'w').write(s.encode('utf8'))
     return STM_REX.finditer(s)
 
 
@@ -30,16 +35,16 @@ def missing(s):
 
 
 def get_moves(s):
-    for m, comment in MOVE_REX.findall(s):
+    for m, c1, c2 in MOVE_REX.findall(s):
+        comment = c1 + c2
         if m == 'null':
             continue
-        if comment == '{}':
-            comment = ''
         yield m, comment
 
 
 def postodict(positions):
     return {'%s 0 1' % m.group(1): list(get_moves(m.group(2))) for m in positions}
+"""
 
 
 def get_node(posd, node):
@@ -79,6 +84,7 @@ if __name__ == '__main__':
     outname = '%s.pgn' % inname.rsplit('.', 1)[0]
 
     with open(inname) as inf:
-        g = to_game(postodict(parse_stm(inf.read())))
+        g = to_game(parse_stm2.postodict(parse_stm2.parseSTM(inf)))
         with open(outname, 'w') as outf:
-            outf.write(str(g))
+            s = unicode(g)
+            outf.write(s.encode('utf8'))
