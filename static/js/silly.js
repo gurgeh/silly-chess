@@ -6,17 +6,38 @@ var sourceid;
 var moves;
 var movenr = 0;
 var fail = false;
+var fail_timer;
 var debugdata;
 
 var cfg;
 
+var startfen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+
+function time_up(){
+    $('#message').text('Time is up!');
+    $('#status').text('Failed');
+    fail = true;
+}
+
 function getNext(data){
-    reset();
     var fact = $.parseJSON(data['fact']);
+
     debugdata = data;
     curid = data['key'];
     console.log('id is ' + curid);
+    console.log(fact);
     moves = fact['moves'];
+
+    if(fact.hasOwnProperty('fen')){
+        reset(fact.fen);
+        clearTimeout(fail_timer);
+        fail_timer = setTimeout(time_up, 35000);
+        delayedAutoMove(5000);
+    } else {
+        reset(startfen);
+        delayedAutoMove(1000);
+    }
+
     if(fact.orientation == 'b')
         board.orientation('black');
 
@@ -27,9 +48,6 @@ function getNext(data){
         mess = stat['left'] + ' / ' + stat['total'] + ' due, next: ' + localnext.toISOString();
         $('#message').text(mess);
     }, cache: false});
-
-
-    maybeAutoMove();
 }
 
 function nextUrl(){
@@ -38,9 +56,10 @@ function nextUrl(){
     return '/source/' + sourceid + '/' + curid + '/' + suffix;
 }
 
-function reset(){
+function reset(fen){
     board = ChessBoard('board', cfg);
-    game = new Chess();
+    board.position(fen);
+    game = new Chess(fen);
     movenr = 0;
     fail = false;
     $('#message').html('&nbsp;');
@@ -50,12 +69,13 @@ function reset(){
 }
 
 
-function delayedAutoMove(){
-    setTimeout(maybeAutoMove, 100);
+function delayedAutoMove(delay=100){
+    setTimeout(maybeAutoMove, delay);
 }
 
 function maybeAutoMove(){
     if(movenr == moves.length){
+        clearTimeout(fail_timer);
         $('#message').html("<a onclick='$.post(nextUrl(), getNext)' href='#" + sourceid + "'>Next!</a>");
         return;
     }
@@ -110,6 +130,7 @@ var onDrop = function(source, target) {
         if($.inArray(move.san, moves[movenr].ok) != -1){
             $('#message').text('Good move, but try another');
         } else {
+            clearTimeout(fail_timer);
             $('#message').text('Expected ' + moves[movenr].move);
             $('#status').text('Failed');
             fail = true;
@@ -167,6 +188,11 @@ cfg = {
 };
 
 $( document ).ready(function(){
+    function preventBehavior(e) {
+        e.preventDefault();
+    };
+
+    document.addEventListener("touchmove", preventBehavior, false);
     sourceid = window.location.hash.substr(1);
     console.log(sourceid);
     $.get("/source/" + sourceid + "/next", getNext);

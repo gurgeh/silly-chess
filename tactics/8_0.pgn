@@ -1,0 +1,96 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/p5p1/1p1K4/1P2QP2/6k1/P7/7q b - - 0 1"]
+
+1... Qxe4+ 2. Kxe4 Kf2 3. f5 gxf5+ 4. Kxf5 Ke3 5. Ke5 Kd3 6. Kd5 Kc3 7. Kc5 Kb2 8. Kb6 Ka3 9. Ka5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5pp1/3b4/3p1k2/1p1P4/1P3KPP/1B6/8 b - - 0 1"]
+
+1... Bxg3 2. Kxg3 Ke4 3. Bc1 Kd3 4. Kf4 Kc2 5. Ke5 Kxc1 6. Kxd5 Kc2 7. Kc4 f5 8. d5 f4 9. Kd4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/pp2ppb1/4n1p1/1qN1P3/3P2Q1/4B3/P1r2PP1/6KR b - - 0 1"]
+
+1... Nxc5 2. Qc8+ Bf8 3. Rh8+ Kxh8 4. Qxf8+ Kh7 5. Qxf7+ Kh8 6. Qf8+ Kh7 7. Qh6+ Kg8 8. Qxg6+ Kh8 9. Qxc2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2rq1rk1/1b2bppp/pn2pn2/1p2P3/1P1N4/P1NB4/1BP1Q1PP/R4R1K b - - 0 1"]
+
+1... Qxd4 2. exf6 Bxf6 3. Na4 Qd8 4. Bxf6 gxf6 5. Nxb6 Qxb6 6. Qh5 f5 7. Qg5+ Kh8 8. Qf6+ Kg8 9. Rxf5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4r1k/pp4pp/2p5/3PP1q1/6b1/1QN5/P4PPP/R4RK1 w - - 0 1"]
+
+1. f4 Rxf4 2. Rxf4 Qxf4 3. Qxb7 Rf8 4. Qxa7 cxd5 5. h3 Bxh3 6. Nxd5 Qg3 7. Ne3 Qf2+ 8. Kh2 Bxg2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k3/ppqn2p1/2p2b2/4N3/2PP4/6p1/PPQ3Pr/R1B2RK1 b q - 0 1"]
+
+1... Nxe5 2. Bf4 Nf3+ 3. Rxf3 Bxd4+ 4. Be3 O-O-O 5. Bxd4 Rxd4 6. Rf8+ Rd8 7. Qf5+ Kb8 8. Rd1 Rc8 9. Rd7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r4k1/p5B1/3p2R1/2p1pr2/7b/7P/PPKQ1P2/5q2 w - - 0 1"]
+
+1. Bf6+ Kf7 2. Rg7+ Ke6 3. Re7+ Kxf6 4. Qxd6+ Kg5 5. Rg7+ Kf4 6. Rg4+ Kf3 7. Qd5+ Kxf2 8. Qxc5+ Kf3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "r4rk1/pp1b3p/4p3/1PP2pq1/3PQp2/P3pP2/6PP/3RKB1R w K - 0 1"]
+
+1. Qxb7 Qh4+ 2. g3 fxg3 3. Ke2 g2 4. Bxg2 Qf2+ 5. Kd3 Qb2 6. Qxd7 Qb3+ 7. Ke2 Qc2+ 8. Kxe3 f4# 0-1
+

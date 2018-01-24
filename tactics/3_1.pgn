@@ -1,0 +1,2400 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2r1bk1/2R1np1p/p3p1p1/3qP3/Np1P3Q/1P3N1P/P4PP1/2R3K1 b - - 0 1"]
+
+1... Nf5 2. Qf6 Be7 3. Rxe7 Nxe7 4. Qxe7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q2k1/p2r1pbp/1R6/6pN/3P2Q1/4P1P1/5PKP/R7 b - - 0 1"]
+
+1... axb6 2. Qxd7 Qxd7 3. Rxa8+ Bf8 4. Nf6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2rk1/pp1bppbp/2np1np1/q7/3NP3/1BN1B2P/PPP1QPP1/R3R1K1 b - - 0 1"]
+
+1... Nxe4 2. Nxc6 Bxc6 3. Nxe4 Bxe4 4. Bd2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r4k1/p1br1pp1/5q1p/4p3/3p4/2PQN3/PP1R1PPP/3R2K1 w - - 0 1"]
+
+1. Qc4 dxe3 2. Rxd7 Qxf2+ 3. Kh1 e2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k1r3r/pp3pQp/4qB1n/8/4p3/3n2N1/PP3PPP/R4K1R b - - 0 1"]
+
+1... Rhg8 2. Qxh6 Rg6 3. Qxg6 hxg6 4. Bxd8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/ppR4p/3N2pb/PN1Pp3/1P2P1bq/3Q1r1P/6P1/6K1 w - - 0 1"]
+
+1. gxf3 Qe1+ 2. Kg2 Bxh3+ 3. Kxh3 Qh1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k2r/pp2pp1p/6p1/2P5/2n5/2b1P1P1/P3RP1P/1RBr1BK1 b k - 0 1"]
+
+1... O-O 2. Rc2 Na3 3. Bxa3 Rxb1 4. Rxc3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3b4/5pk1/6p1/3r2P1/6RK/6P1/R7/8 b - - 0 1"]
+
+1... Rxg5 2. Rxg5 Kh6 3. Kg4 Bxg5 4. Rh2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "4rr2/pp5k/2pq2b1/3nR2Q/3P4/1B4R1/PP4P1/6K1 b - - 0 1"]
+
+1... Bxh5 2. Rxh5+ Qh6 3. Bc2+ Kh8 4. Rxh6# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r1k1/1pq2ppp/p4nb1/3nb3/P2N3Q/5B2/1PPBN1PP/2R2R1K b - - 0 1"]
+
+1... Ne4 2. Bxe4 Bf6 3. Rxf6 Rxe4 4. Rf4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rn1q1r2/p1p1n1Q1/bp2p3/3p1p1k/2PP4/P1P1P3/5PPP/R1B1K2R w KQ - 0 1"]
+
+1. h4 Ng8 2. f3 Nh6 3. e4 Qf6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "8/4rpk1/5p1p/1p2q3/p7/P1P1n1P1/1P3Q1P/KB2R3 b - - 0 1"]
+
+1... Nc2+ 2. Qxc2 Qxe1 3. Qh7+ Kf8 4. Qh8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3rr3/5pk1/2q3bp/p1P3p1/1p1P3P/2P2P2/PQ1K2P1/2N1R2R b - - 0 1"]
+
+1... Qxc5 2. Rxe8 bxc3+ 3. Qxc3 Rxd4+ 4. Nd3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/ppp1qpp1/2bp4/4P1P1/3Q4/5N2/PPP2PP1/2K4R b - - 0 1"]
+
+1... dxe5 2. Qh4 f5 3. Nxe5 Qxe5 4. g6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/1p1b2pp/2n2q2/pB1p4/Q2P1P2/6P1/PP1K4/4RR2 w - - 0 1"]
+
+1. Re5 Nxe5 2. dxe5 Qb6 3. Bxd7 Qxb2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r2k1/3qrp2/pp1N2p1/2pPb3/7p/P4P1P/3Q3B/3RR2K w - - 0 1"]
+
+1. Bxe5 Rxe5 2. Rxe5 Qxh3+ 3. Kg1 Qg3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "5r2/3k2pp/1Pp3p1/4R3/4P2P/6P1/1pr2P2/1R3BK1 b - - 0 1"]
+
+1... Rb8 2. Rd1+ Kc8 3. Ba6+ Rb7 4. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/R4pp1/2p1k3/2Bb3p/1b5P/3K1nP1/1r3P2/2R5 b - - 0 1"]
+
+1... Ne1+ 2. Rxe1+ Bxe1 3. Re7+ Kf6 4. Rxe1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r5/pk3p1p/1p2p3/q2p3N/2rP1pP1/bQPR3P/1P3P2/1K5R w - - 0 1"]
+
+1. Qxa3 Ra4 2. Qb3 Ra1+ 3. Kc2 Rxh1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4r2/1b3pk1/p2ppnpp/1p6/2qNPQ2/2N1R2P/PPP2PP1/3R2K1 b - - 0 1"]
+
+1... e5 2. Nf5+ gxf5 3. Rg3+ Kh8 4. Qxh6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "8/8/P7/R7/2K1Pkp1/6p1/5bB1/6r1 b - - 0 1"]
+
+1... Rxg2 2. Kd3 Bc5 3. Rxc5 Kf3 4. Rf5# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/5p2/3p2p1/pPp1p2p/P3P3/5P2/3nK1PP/8 w - - 0 1"]
+
+1. b6 Nb3 2. b7 Nd4+ 3. Kd3 Nc6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5rk1/1qr1n2p/6pQ/Pb2Np2/3PpNP1/7P/8/4RRK1 b - - 0 1"]
+
+1... Bxf1 2. Ne6 Rf7 3. Nxf7 Kxf7 4. Nd8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1br2k1/2qnb1pp/p2pp3/1p4P1/3QP3/2N1B3/PPP1B2P/3R1RK1 w - - 0 1"]
+
+1. Nd5 exd5 2. Qxd5+ Kh8 3. Qxa8 Nb6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "R4Q2/5ppk/1p2p2p/1P6/3p2P1/7P/4PPK1/2r1qB2 w - - 0 1"]
+
+1. Qxf7 Qxf1+ 2. Kg3 Rc3+ 3. e3 Rxe3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r5k1/pp2qp1p/6p1/3Q4/1P6/b3P2P/B4PP1/1R4K1 b - - 0 1"]
+
+1... Bxb4 2. Rxb4 Qxb4 3. Qxf7+ Kh8 4. Qf6# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1nr2r1k/1Q3p1p/p3bN2/q3p3/3p3B/b2B1N2/1P3PPP/1K1RR3 w - - 0 1"]
+
+1. Qe4 Ba2+ 2. Kxa2 Bxb2+ 3. Kxb2 Qb4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r1rk1/1pp3pp/2n5/p2nqp1B/8/PP1PP2P/2Q2PP1/R1B2RK1 b - - 0 1"]
+
+1... Qxa1 2. Bb2 Qa2 3. Ra1 Qxa1+ 4. Bxa1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "3r3k/1p5p/p1n4P/5bp1/P7/2q1PPQ1/1r2R1N1/3B1RK1 b - - 0 1"]
+
+1... Rxd1 2. Rxd1 Rxe2 3. Qb8+ Nxb8 4. Rd8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1q1k2Qp/8/6p1/3Pn1P1/4P2P/5PK1/8 b - - 0 1"]
+
+1... Kc6 2. d5+ Kb6 3. Qd4+ Nc5 4. Qb4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r5/1p1q1ppk/p3b2p/2Q5/3R4/P2P2PP/1P4BK/8 w - - 0 1"]
+
+1. Rxd7 Rxc5 2. Rxb7 Rc2 3. Kg1 Rxg2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/p7/1p6/1P3pp1/P1k5/4PKP1/8/8 w - - 0 1"]
+
+1. g4 fxg4+ 2. Kxg4 Kd3 3. Kf3 g4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3q1rk1/p4ppp/3p4/2r1p3/2N1QnP1/1P4RP/P2R1P2/3K4 w - - 0 1"]
+
+1. Nxe5 dxe5 2. Rxd8 Rxd8+ 3. Ke1 Rc1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/3p2pp/bp2p3/8/P2BQ3/6P1/4PP1P/R4RK1 b - - 0 1"]
+
+1... b5 2. axb5 Bxb5 3. Rxa8 Qxa8 4. Qe5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k1nr/1p3ppp/p1nQb3/1B3p2/8/8/P1qB1PPP/R3R1K1 w kq - 0 1"]
+
+1. Rac1 Qxc1 2. Rxc1 axb5 3. Rxc6 Rd8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2rk1/1bqn1ppp/p1pbpn2/1p6/PP1P4/2N1PN2/2QBBPPP/R2R2K1 b - - 0 1"]
+
+1... Bxb4 2. Nxb5 cxb5 3. Qxc7 Rxc7 4. Bxb4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2qk2r/1Q3ppp/p1nb4/3N4/4pB2/5NP1/PP5P/4KB1R b Kkq - 0 1"]
+
+1... Na5 2. Nc7+ Bxc7 3. Qxe4+ Kd7 4. Bh3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k1n1rr1/ppp4p/4Q2p/2N4q/3P1b2/4RN1P/PP3PP1/5RK1 w - - 0 1"]
+
+1. Nd7+ Ka8 2. Nb6+ cxb6 3. Qc8+ Bb8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k2q/1p3p2/p1b1B1n1/8/3QP3/2N5/PPP4r/1K1R1R2 b q - 0 1"]
+
+1... Qxd4 2. Bxf7+ Ke7 3. Rxd4 Rf8 4. Bc4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnb1k2r/1p3p2/1n2pPpp/pN1p4/P1pP1B2/1B6/1PP2PPP/R3K2R b KQkq - 0 1"]
+
+1... cxb3 2. Nc7+ Kd8 3. Nxa8 Nxa8 4. Bxb8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r2n1k1/2p1bp1p/b2p2pB/1q1Pp3/1Pn1P3/1BQ3NP/5PPN/R5K1 b - - 0 1"]
+
+1... Qxb4 2. Qxb4 Rxb4 3. Rxa6 Rxb3 4. Ra8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r1k1/3r1pp1/pp1Pq2p/3R3Q/P1p1P3/2PR2BP/6PK/8 b - - 0 1"]
+
+1... cxd3 2. Re5 Qxe5 3. Bxe5 g6 4. Qg4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1Q6/3kpp2/p2p4/1p6/2q5/5Pb1/PPP1K1P1/R4B2 w - - 0 1"]
+
+1. Ke3 Bf4+ 2. Kf2 Qd4+ 3. Ke1 Qd2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pp3pp1/2n2n1p/3N2B1/1bPN4/8/PP2BPPP/R2Q1RK1 b - - 0 1"]
+
+1... Nxd4 2. Bxf6 Nxe2+ 3. Qxe2 gxf6 4. Nxb4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/1p6/p5p1/2pP2qp/P7/2P1QK1b/5N2/R4R2 b - - 0 1"]
+
+1... Bg4+ 2. Nxg4 Qxg4+ 3. Kf2 Rf8+ 4. Ke1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/ppqnppb1/3p3p/3Pn1pb/8/1BP1QNBP/PP1N1PP1/R4RK1 b - - 0 1"]
+
+1... f5 2. Bxe5 Nxe5 3. Nxe5 Bxe5 4. Qxe5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2rk1/pp1q2pp/5bp1/P2p4/1QnP4/5NBP/1P3PP1/R3R1K1 b - - 0 1"]
+
+1... Rfd8 2. b3 Nd6 3. Bxd6 Qxd6 4. Re8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2rk1/pb2npp1/1p2p2p/8/3BP3/PnN2P2/1P4PP/3RKB1R w K - 0 1"]
+
+1. Bxg7 Kxg7 2. Rd7 Nc6 3. Rxb7 Nc5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/1p4pp/1R4b1/8/2Pbp3/P3N1N1/1P3KPP/3r4 w - - 0 1"]
+
+1. Rxb7 Rd2+ 2. Ne2 Bh5 3. g4 Bxg4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/1p1rbbpp/p1r2p2/3p4/3B1P2/1P5P/P3R1P1/1B2R1K1 w - - 0 1"]
+
+1. Rxe7 Rxe7 2. Rxe7 Rc1+ 3. Kh2 Rxb1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/pp1q1r1k/2p3R1/3pP1p1/3P4/3B1P1P/PP5K/6R1 w - - 0 1"]
+
+1. R1xg5 Qxh3+ 2. Kxh3 Rxf3+ 3. Rg3 Rxd3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/pbpp2pp/1pnnp2P/8/2P1p3/2PP1NP1/P3QPB1/R1B2RK1 w - - 0 1"]
+
+1. hxg7 Rxf3 2. Bxf3 exf3 3. Qxf3 Ne5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/3r1pb1/p5p1/6Bp/1P2p3/pPP4P/5PP1/2R3K1 b - - 0 1"]
+
+1... Bxc3 2. Rxc3 Rd1+ 3. Kh2 a2 4. Bf6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2krB1Q1/pp2pp2/5p1b/2P5/6P1/2Np3q/PPn2P1P/3R2KR b - - 0 1"]
+
+1... Ne3 2. Bd7+ Kxd7 3. Rxd3+ Kc6 4. Rxe3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2qk1/1R1b1r1p/P2p2p1/3P4/5R1n/2BQp3/4B1PP/6K1 w - - 0 1"]
+
+1. Rxh4 Rxc3 2. Qxc3 Rf1+ 3. Bxf1 Qf2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1q4k1/r3p2p/3pbpp1/1Pn5/4P3/3QB1P1/5PBP/2R3K1 w - - 0 1"]
+
+1. Bxc5 dxc5 2. Rxc5 Ra1+ 3. Bf1 Bh3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4bk1/5ppp/1Rp5/n3p3/6P1/P1BrP2P/2R2PB1/6K1 b - - 0 1"]
+
+1... Bxa3 2. Bxa5 Rxa5 3. Rb8+ Bf8 4. Rxc6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k1r4/1p2Q1pp/RPpq1p2/8/6P1/8/1PK1B3/8 w - - 0 1"]
+
+1. Qxg7 Rd7 2. Qg8+ Rd8 3. Qxh7 Rd7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2b3k1/p4pp1/q5n1/4p3/4P1QP/2Nr1P2/PP4R1/2B4K w - - 0 1"]
+
+1. Qg5 Rxf3 2. h5 Qf1+ 3. Kh2 Rh3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k3rr/p1pb1p2/1p2p2p/2P1Pn1P/4B3/P7/5BP1/1RR3K1 b - - 0 1"]
+
+1... Kb8 2. cxb6 cxb6 3. Bxb6 axb6 4. Rxb6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r5/B2k1p2/7P/P7/1R2p3/P1p3P1/2Pp1PK1/2n5 b - - 0 1"]
+
+1... d1 2. Rd4+ dxd4 3. Bxd4 Ne2 4. Bg7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r4/5p1R/2k1b1p1/p1pN2P1/2n1P3/P2K1P2/2P1N3/8 b - - 0 1"]
+
+1... Bxd5 2. exd5+ Kxd5 3. Nc3+ Kc6+ 4. Kxc4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rqb2rk1/pp2b1pp/8/1N1pp3/5B2/3B4/PP3PPP/R2Q2K1 w - - 0 1"]
+
+1. Bxh7+ Kxh7 2. Qh5+ Kg8 3. Bxe5 Bg4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4R1Rk/4n2p/1p2r3/8/2p4P/6PK/8 b - - 0 1"]
+
+1... Nxg7 2. Rxe5 b4 3. Rc5 Ne6 4. Rc4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4rr1k/6bp/p2Q4/P1pNn1R1/R7/4B2P/1q4P1/6K1 w - - 0 1"]
+
+1. Rxg7 Kxg7 2. Bh6+ Kh8 3. Bxf8 Nf3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6pk/2Q1P1p1/p7/Pp6/8/1q3PP1/6K1 w - - 0 1"]
+
+1. e7 Qa1+ 2. Kh2 Qe5+ 3. g3 Qxe7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1br4/pp2pkbp/1q3np1/1P6/2n1PB2/2N2N1P/P1Q2PP1/2R2RK1 w - - 0 1"]
+
+1. Na4 Qxb5 2. Qxc4+ Qxc4 3. Rxc4 b5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1r1k1/pp3p1p/1n3np1/1Pqp4/4P3/P1NB1N2/2Q2PPP/R3R1K1 b - - 0 1"]
+
+1... dxe4 2. Nxe4 Nxe4 3. Qxc5 Nxc5 4. Rxe8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/p2n1kp1/7p/4b3/N7/1P1pBP2/P1r2RPP/6K1 b - - 0 1"]
+
+1... Bd4 2. Bxd4 Rc1+ 3. Rf1 d2 4. Nc3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r3rk1/5p2/p5pp/P7/3Q4/4PqP1/1n1R1P2/1B3RK1 b - - 0 1"]
+
+1... Rfd8 2. Rxb2 Rxd4 3. Rxb8+ Kg7 4. exd4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/3b3P/4p1R1/1B1pP3/4nP2/pP6/2r5/K2R4 b - - 0 1"]
+
+1... Nc3 2. Rg8+ Kxh7 3. Bd3+ Kxg8 4. Rg1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1rr3k1/1b1nqppp/4p3/1ppn4/8/2NP1NP1/1PQ1PPBP/R4RK1 w - - 0 1"]
+
+1. Nxb5 Nb4 2. Qd2 Bxf3 3. Bxf3 Rxb5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "6k1/Rp3pp1/2p3p1/8/1q6/2N5/Pr4PP/3Q3K b - - 0 1"]
+
+1... Qxc3 2. Qd8+ Kh7 3. Qh4+ Kg8 4. Ra8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "q2rr1k1/1b3pp1/n6p/1Np5/Q2pn3/1P2P1B1/P4PBP/2RR2K1 w - - 0 1"]
+
+1. exd4 Nxg3 2. Bxb7 Ne2+ 3. Kf1 Qxb7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4r2/pp4b1/1qn2nkp/1N1R4/1P6/8/PB3PPP/R2Q2K1 b - - 0 1"]
+
+1... Nxd5 2. Qg4+ Kf7 3. Qxg7+ Ke8 4. Nd6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "q3kb1r/rb1n2pp/pp1pPn2/4p3/2P1P3/2N1B1P1/PP4BP/R2Q1RK1 b k - 0 1"]
+
+1... Nb8 2. Rxf6 gxf6 3. Qh5+ Kd8 4. Bxb6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2r3k/p6p/4R1pB/5qb1/2Qp4/8/PP3PPP/4R1K1 w - - 0 1"]
+
+1. Qxd4+ Rxd4 2. Re8+ Qf8 3. Bxf8 Rxe8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r2k1/p4pp1/1q3rp1/3B4/Rb6/1P1Q2PP/P1R2PK1/8 w - - 0 1"]
+
+1. Rxb4 Qxb4 2. Bxf7+ Kxf7 3. Qxd8 Qe4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bqr1k1/pp3pbp/5np1/4n1B1/1P1NN3/6PP/P4P2/1R1QRBK1 b - - 0 1"]
+
+1... h6 2. Nxf6+ Bxf6 3. Bxf6 Qxf6 4. f4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r1b2q1k/pp1nBBbp/2p3p1/4N3/3rnP2/1Q6/PP4PP/4RRK1 b - - 0 1"]
+
+1... Qxe7 2. Nxg6+ hxg6 3. Qh3+ Bh6 4. Qxh6# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r2k/1p3R1p/2qp2pB/p3b3/P3P1Q1/2N5/1Pn4P/6RK b - - 0 1"]
+
+1... Bxc3 2. Rxh7+ Kxh7 3. Qxg6+ Kh8 4. Bg7+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "q7/p2P1pp1/1p5k/2p2Q2/P5nP/1P4p1/5P2/6K1 w - - 0 1"]
+
+1. Qg5+ Kh7 2. d8 gxf2+ 3. Kf1 Qh1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5r1k/1b2np1p/pq2Bpr1/1p5P/3NpQ2/2P4R/1P3PP1/2KR4 b - - 0 1"]
+
+1... fxe6 2. hxg6 Nxg6 3. Qh6 Rf7 4. Qxg6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/pb2R1pp/1p6/5p2/8/1Q1B4/P4PP1/q1B3K1 b - - 0 1"]
+
+1... Kh8 2. Qb2 Qxb2 3. Bxb2 Bd5 4. Rxg7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2rk1/pp6/4q1p1/1N1p1p2/4n3/1Pb2BP1/P3PP2/1R1QK2R w K - 0 1"]
+
+1. Nxc3 Nxc3 2. Qd4 Nxb1 3. Bxd5 Rc1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r1r2k1/4ppbp/b4np1/qN2n3/PpB1P3/4BP2/1P1Q1NPP/R2R2K1 w - - 0 1"]
+
+1. Qe2 Rxd1+ 2. Rxd1 Nxc4 3. Qxc4 Qxa4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1r3k1/p2n1pbp/1pp2np1/1P2p3/2Pp4/2NPPP2/PB1NKP1P/R1R5 w - - 0 1"]
+
+1. bxc6 dxc3 2. cxd7 cxb2 3. dxc8 Rxc8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/4Rp1p/p1qpnPpQ/8/P7/6PP/2P4K/8 w - - 0 1"]
+
+1. Rxe6 Qxc2+ 2. Kg1 Qb1+ 3. Kf2 Qf5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5r1k/1b3p1p/p2R4/1p2pN1P/1Pr5/4KP2/PP6/3R4 b - - 0 1"]
+
+1... Rf4 2. Rd8 Rxf3+ 3. Ke2 Rxf5 4. h6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r2k1/pp1r1p2/q1p1p2p/2P3b1/P2P2QP/1P1RR3/5PP1/5K2 w - - 0 1"]
+
+1. hxg5 Rxd4 2. Qg3 Rxd3 3. gxh6+ Kf8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4k1r/1p2bpp1/p3p3/4P2p/P3q3/3nBNQ1/1P1R1PPP/R5K1 b - - 0 1"]
+
+1... Bb4 2. Ng5 Qf5 3. Rxd3 Qxd3 4. Bc5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2q2rk1/p2n1p1p/1pn1p1pP/1Q1pP1N1/3P2N1/2P5/P4PP1/2R3K1 b - - 0 1"]
+
+1... Nxd4 2. Qxd7 Qxd7 3. Nf6+ Kh8 4. Nxd7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r4/5pkp/pp1r2p1/n1pP4/P7/1P1R1N1P/5PP1/3R2K1 b - - 0 1"]
+
+1... Nc6 2. dxc6 Rxd3 3. Rxd3 Rxd3 4. c7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/pp2nppp/1q6/1Bn4P/3Rb1P1/2N5/PPQ1N3/2K4R w - - 0 1"]
+
+1. Nxe4 Nxe4 2. Rxe4 Qxb5 3. Rxe7 Qg5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b3k1/5rb1/q1p3np/1NP1np2/8/1Q4P1/3BN1BP/1R3R1K w - - 0 1"]
+
+1. Nc7 Qxe2 2. Nxa8 Qxd2 3. Rfd1 Qg5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "r2r2k1/pp3p1p/2b1p1p1/4P3/1n3P2/1NqB1R1Q/P1P3PP/R6K w - - 0 1"]
+
+1. Bxg6 Qxa1+ 2. Nxa1 Rd1+ 3. Rf1 Rxf1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2kr3r/1pqb2p1/1n2B3/p4p1p/3B2n1/P1P2P1N/1P1NQ1Pb/R2R3K b - - 0 1"]
+
+1... Rhe8 2. Bxb6 Qxb6 3. Bxd7+ Kxd7 4. Nc4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2bk1/2p3pp/pn1p4/NpnP4/3QpP2/P1N2q1P/1PP2P2/1K4RR w - - 0 1"]
+
+1. Rxg7+ Bxg7 2. Rg1 Bg4 3. Rxg4 Qxg4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b3k1/ppp1pr1p/3q4/3n4/4pB2/2Q3P1/PP2BP1P/2KR3R w - - 0 1"]
+
+1. Rxd5 Qxd5 2. Rd1 Qc6 3. Rd8+ Rf8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1r1k1/pp3p1p/3p2p1/2p1n1q1/2PNPn2/2N1R1P1/PP1Q1P1P/R4BK1 w - - 0 1"]
+
+1. Ndb5 Nf3+ 2. Rxf3 Nh3+ 3. Bxh3 Qxd2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r1k1b1r/3b1Q1p/p2ppP2/8/1q2P3/1PN5/1P2B2P/2KR1R2 b - - 0 1"]
+
+1... Bh6+ 2. Kb1 Qxb3 3. Qe7+ Kc8 4. Bxa6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5rk1/1B3ppp/4p3/P1r5/8/7P/5PP1/R5K1 b - - 0 1"]
+
+1... Rb8 2. a6 Rc7 3. a7 Rcxb7 4. a8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2rk1/1pqnbppp/p3pn2/8/2BN4/2P2N2/PP2QPPP/R1B2RK1 w - - 0 1"]
+
+1. Nxe6 fxe6 2. Qxe6+ Kh8 3. Qxe7 Qxc4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r3k/1bQ4p/3p1Pp1/4p3/1P2p3/1B2B2q/7P/1K6 b - - 0 1"]
+
+1... Qd7 2. Qxd7 Rxd7 3. f7 Rxf7 4. Bxf7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r1r1k1/pp3ppp/6q1/3p1b2/3P4/P2B2P1/1P3PP1/1Q1RK1NR w K - 0 1"]
+
+1. Kf1 Bxd3+ 2. Rxd3 Qxd3+ 3. Qxd3 Rc1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bqk2r/1pp2pbp/p1np1np1/4P1B1/P3P3/2N2P2/1PP1N1PP/R2QKB1R b KQkq - 0 1"]
+
+1... dxe5 2. Qxd8+ Nxd8 3. Bxf6 Bxf6 4. Nd5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/1bq1bppp/p2ppn2/8/1n2PP2/1NNBB2Q/1PP3PP/R4RK1 w - - 0 1"]
+
+1. e5 dxe5 2. fxe5 Qxe5 3. Rxf6 Nxd3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2rr2k1/1bq2pbp/p3p1p1/1p2P3/8/P1NPR2P/1P3QP1/5RBK b - - 0 1"]
+
+1... Bxe5 2. Rxe5 Qxe5 3. Qxf7+ Kh8 4. Qxb7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r1b3k1/1p1q2b1/3r4/P2Pp1N1/4P1B1/8/5Q1P/2R4K b - - 0 1"]
+
+1... Qxg4 2. Qf7+ Kh8 3. Qe8+ Bf8 4. Qxf8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/pppb1pbp/6p1/2Pp4/3q1P2/2NB2Pn/PP1Q2KP/4R3 b - - 0 1"]
+
+1... Bh6 2. Re8+ Bxe8 3. Bf5+ gxf5 4. Qxd4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/2q1bp1R/2n3p1/5pP1/1p1p3Q/P2PP3/7P/R3N1K1 b - - 0 1"]
+
+1... Bxg5 2. Rh8+ Kg7 3. Qh7+ Kf6 4. Rxa8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3rk2r/2q2ppp/p1N1p1b1/P7/3Pn1n1/B7/1Q3PPP/2R1R1K1 w k - 0 1"]
+
+1. Nxd8 Qxh2+ 2. Kf1 Ng3+ 3. fxg3 Bd3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "B3k2r/p4pp1/q1p1p3/3pP1p1/2Pb1n2/1Q6/PP3P1P/3R1K1R b k - 0 1"]
+
+1... dxc4 2. Qb8+ Ke7 3. Qd6+ Ke8 4. Bxc6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnb2rk1/pp2ppbp/4q1p1/3NP3/8/5N2/PPPBQ1PP/2KR3R w - - 0 1"]
+
+1. Nc7 Qxa2 2. Bf4 Qa1+ 3. Kd2 Qa5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r3k/1p1rq1bp/p5p1/3B4/4p3/4Q1PP/PP1R1PK1/3R4 w - - 0 1"]
+
+1. Bxb7 Rxd2 2. Rxd2 Rxd2 3. Qxd2 e3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "r4rk1/ppp4p/n2p2p1/3P4/2P1p3/2N3qb/PP1BB3/R2QNR1K w - - 0 1"]
+
+1. Rg1 Qh4 2. Bg5 Bg2+ 3. Kxg2 Rf2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/pp6/4b1pp/4q3/2p5/P1P2rP1/1BPQ1P2/R4RK1 w - - 0 1"]
+
+1. Qxh6 Rxg3+ 2. fxg3 Qxg3+ 3. Kh1 Bd5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3q1k1/p1p1b1P1/4p3/4P3/1p1P2Q1/1Pp4K/P4PR1/8 w - - 0 1"]
+
+1. Qxe6+ Qf7 2. Qh6 Qf5+ 3. Kh2 Qh7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqk1nr/pppp1ppp/8/2bN2N1/2P5/4p3/PP1PPPPP/R1BQKB1R w KQkq - 0 1"]
+
+1. dxe3 c6 2. Ne4 cxd5 3. Nxc5 Qa5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5rk1/pq2pp1p/1p1p1np1/4n2r/1PPQ1N2/2N3P1/P3PP1P/2R2RK1 b - - 0 1"]
+
+1... Nf3+ 2. exf3 e5 3. Qxd6 Ne8 4. Qd5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5r2/5pk1/1p3np1/1R6/2BQP3/5Pqp/6P1/7K w - - 0 1"]
+
+1. Rb2 Rh8 2. Kg1 h2+ 3. Kh1 Qe1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/1prb2pp/p2q4/3Pnp2/1P1Qp3/P1N4P/4BPP1/2RR2K1 w - - 0 1"]
+
+1. Nxe4 fxe4 2. Rxc7 Qxc7 3. d6 Qc2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5pk1/6p1/7p/7P/5K2/5P2/8 b - - 0 1"]
+
+1... Kf6 2. Kf4 Ke6 3. Ke4 f6 4. f4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r1b2rk1/1p2qpp1/2p4p/p2n4/7Q/P1B1P1R1/1P4PP/1B2R1K1 b - - 0 1"]
+
+1... Qxh4 2. Rxg7+ Kh8 3. Rh7+ Kg8 4. Rh8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k2r/pp1q1ppp/4p1b1/4N3/P1Qp4/B1n5/5PPP/R3R1K1 b kq - 0 1"]
+
+1... Qd5 2. Qc7 Qd8 3. Qxb7 Rc8 4. Bd6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r1rbk1/qb1n1p1p/p4np1/P5N1/2p1pB2/6NP/BPPQ1PP1/3RR1K1 w - - 0 1"]
+
+1. N5xe4 Bxe4 2. Nxe4 Nxe4 3. Qxd7 Qxf2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "2kr3r/Qpp2ppp/3bp3/2PR4/8/2q2B2/P4PPP/5RK1 b - - 0 1"]
+
+1... exd5 2. Bg4+ f5 3. Bxf5+ Rd7 4. Qa8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/p1p5/p4R2/3N1p2/2P5/1N3pb1/P7/1r1K4 w - - 0 1"]
+
+1. Nc1 Bf4 2. Nxf4 Rxc1+ 3. Kxc1 f2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q3k/pp1r2p1/3NRn1p/6b1/1P1Q1p2/8/P1B2PPP/6K1 b - - 0 1"]
+
+1... Ne8 2. Nf7+ Rxf7 3. Qxd8 Bxd8 4. Rxe8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r4k1/p2R1p2/5p1p/8/8/3bpN1P/P4PP1/6K1 w - - 0 1"]
+
+1. Rxd3 Rb1+ 2. Kh2 exf2 3. Nd2 Rd1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/5pk1/2p3p1/P1P1Pn2/5P2/5Q1K/q4B2 w - - 0 1"]
+
+1. Qxc5 Qxf1 2. Qf5+ Kg7 3. Qd7+ Kh6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p2/b4r1k/P2R2p1/6Kp/3p4/3R1P1P/8 w - - 0 1"]
+
+1. Rxg5 Bc8+ 2. Kxh4 Rf4+ 3. Kg3 Kxg5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r4k1/4qpbp/p4np1/2pP4/2Q5/1P3PP1/PB2r1BP/R2R2K1 w - - 0 1"]
+
+1. Rab1 Qe3+ 2. Kh1 Qf2 3. Rg1 Rxb2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/p2r1pbp/1q4p1/3P2B1/Q1p5/7P/PP2RPP1/R5K1 b - - 0 1"]
+
+1... Rxd5 2. Re8+ Rxe8 3. Qxe8+ Bf8 4. Be7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1k2r/1p1nb1p1/1Qp1ppNq/p6p/2PPN3/3B2P1/PP3P1P/R2K3R w kq - 0 1"]
+
+1. Qc7 Qxg6 2. Nd6+ Bxd6 3. Bxg6+ Ke7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/1p2q3/p2p4/P1pP1p2/6R1/2NQb1P1/1P1N2P1/4K2R b K - 0 1"]
+
+1... fxg4 2. Qg6+ Qg7 3. Qe6+ Rf7 4. Qxe3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5r1k/2p1b1pp/p2qb3/1p1p4/6n1/2P1P2P/PPB3P1/RQ2RNK1 b - - 0 1"]
+
+1... Rxf1+ 2. Kxf1 Qg3 3. hxg4 Bh4 4. Kg1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r1k1/1pqb1ppp/5b2/1PPp4/1p1N2n1/2P1BN2/4QPPP/R4RK1 w - - 0 1"]
+
+1. cxb4 Rxa1 2. Rxa1 Bxd4 3. Nxd4 Qxh2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5rk1/pp2p1bp/6p1/2p1P3/2nP2P1/2Pq4/PQ2NBPP/4R1K1 w - - 0 1"]
+
+1. Qxb7 Rxf2 2. Kxf2 Qe3+ 3. Kf1 Nd2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/2rn1ppp/Pq2p3/3p4/PQ1P4/5BP1/5P1P/1R4K1 b - - 0 1"]
+
+1... Rc1+ 2. Rxc1 Qxb4 3. Rc8+ Nf8 4. a7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5pk1/3P1np1/4Q3/4P3/2N4p/4KPq1/8 w - - 0 1"]
+
+1. Nd5 Qxe4+ 2. Qxe4 Nxe4 3. d7 h2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1r3k1/5pp1/4p2p/3pP3/p3nP1P/1P1BN2R/6P1/2K1R3 w - - 0 1"]
+
+1. Nc2 axb3 2. Bxe4 bxc2 3. Bxc2 Ra1+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r2k1/pp1r1ppp/4bn2/q7/3BP3/1P3P2/2B2QPP/R2R2K1 b - - 0 1"]
+
+1... Rxd4 2. Qxd4 Rxd4 3. Rxa5 Rxd1+ 4. Bxd1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/B7/1Pk2bpp/p4p2/5P2/1KnN1PP1/7P/8 w - - 0 1"]
+
+1. Nc5 a4+ 2. Kc4 Nb5 3. b7 Nd6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rn1q1rk1/pp2pp1p/1n4p1/2pNb3/4P3/4B3/PPQ2PPP/2KR1B1R b - - 0 1"]
+
+1... e6 2. Nxb6 Qxb6 3. Bxc5 Bxb2+ 4. Kb1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2kr3r/3q1pp1/1p2n1p1/pPp1P3/P1PpN3/5N1P/3R1Pn1/3QR1K1 w - - 0 1"]
+
+1. Kxg2 Nf4+ 2. Kg3 Rxh3+ 3. Kxf4 Qf5# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3Q4/p2bNBk1/6pp/2p3n1/P4b2/8/2q3P1/R6K b - - 0 1"]
+
+1... Bh3 2. Qg8+ Kf6 3. Nd5+ Ke5 4. Qb8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3rr1k1/pp3p2/2p2p2/6qp/1b1N3R/7Q/P4PPP/5RK1 w - - 0 1"]
+
+1. Nf5 Re1 2. Rxe1 Bxe1 3. Rxh5 Bxf2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1k3/1p1p1p1p/4pp2/8/1PP1P3/3n2N1/2R2PrP/4KB1R w Kq - 0 1"]
+
+1. Ke2 Rxf2+ 2. Kxd3 Ra3+ 3. Rc3 Rf3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r1k2r/1b4bp/pq3ppN/2pBn3/1p2PQ2/7P/PPPB4/1K2RR2 b k - 0 1"]
+
+1... g5 2. Qf5 Bxh6 3. Bxb7 Qxb7 4. Qe6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "r2k1r2/ppR3Q1/4p2p/3p4/4n3/3Bq3/PP5P/2R3K1 w - - 0 1"]
+
+1. Kh1 Nf2+ 2. Kg2 Qf3+ 3. Kg1 Nh3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3qbr1k/pp3pp1/4p2p/4N3/3P3b/PQ2nBN1/1P4PP/2R3K1 w - - 0 1"]
+
+1. Qxe3 Bg5 2. Qc3 Bxc1 3. Qxc1 Qxd4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2q5/1b2R3/p4B1k/1p6/2n2r1p/2N4P/PPQ3P1/7K b - - 0 1"]
+
+1... Qxh3+ 2. Kg1 Rf1+ 3. Kxf1 Qh1+ 4. Ke2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/4q1pp/5p2/1p2BP2/4Q3/1P6/r5PP/3R3K b - - 0 1"]
+
+1... Qxe5 2. Rd8+ Kf7 3. Qb7+ Qe7 4. Qd5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4k1r/2p4p/p1qp1b1Q/2pp4/3PP3/7P/P1P3P1/5RK1 b - - 0 1"]
+
+1... Kg8 2. Rxf6 Qd7 3. Qg5+ Qg7 4. Qxd5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/p4q2/1p1bp1p1/nb1p1pB1/3P1N2/P4NP1/1P3P2/3QR1K1 w - - 0 1"]
+
+1. Rxe6 Bxf4 2. Re7 Qxe7 3. Bxe7 Rc1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/p1p3b1/3pb1R1/5P1B/4q3/2P1B3/P2Q3R/2K5 b - - 0 1"]
+
+1... Rab8 2. Rxg7+ Kxg7 3. Bd4+ Rf6 4. Qg5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3qrk2/4bp1p/p1rpbnpN/4p1B1/pP2P3/2P2QNP/P4PP1/R2R2K1 w - - 0 1"]
+
+1. Ngf5 gxf5 2. exf5 e4 3. Qg3 Bc4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/R5p1/5r1p/1p1BRb2/1Pp5/2Pr3P/5PP1/6K1 b - - 0 1"]
+
+1... Kh7 2. Rxf5 Rxf5 3. Be4 Rd1+ 4. Kh2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4r1k/1bq1bpp1/pn3n1B/4pR2/4P3/1NpB2Q1/PPP3PP/5R1K b - - 0 1"]
+
+1... Ne8 2. Bxg7+ Nxg7 3. Rxf7 Rxf7 4. Rxf7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k1r3/2p1n2p/2p2P2/p7/4N3/1p6/3R2PP/4K3 w - - 0 1"]
+
+1. fxe7 Rxe7 2. Re2 Rxe4 3. Rxe4 b2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5rk1/1q3ppp/p3pn2/1p6/8/3N2P1/PPr1PP1P/2RRQ1K1 b - - 0 1"]
+
+1... Rfc8 2. Nc5 R2xc5 3. Rxc5 Rxc5 4. Rd8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/pb1q2pp/1p2pb2/n7/3PN1Q1/3BB3/P4PPP/2R2RK1 b - - 0 1"]
+
+1... Bxd4 2. Ng5 Bxe3 3. Bxh7+ Kh8 4. fxe3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r6/3P2k1/4P3/p1p4p/P3R1pP/5r2/1p3P2/3R2K1 w - - 0 1"]
+
+1. e7 b1 2. Rxb1 Rxb1+ 3. Kg2 Rb2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r4r/1b2kp2/p2pp3/1p1qn1Pp/1Q2N3/3B4/PPP3PP/3R1R1K b - - 0 1"]
+
+1... Nxd3 2. Rxd3 Qxe4 3. Qxd6+ Ke8 4. Qd7+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkb1r/4pp1p/3P2p1/1NpP3n/1p3B2/8/PP3PPP/R2QKBNR b KQkq - 0 1"]
+
+1... Nxf4 2. Nc7+ Kd7 3. Qg4+ Kxd6 4. Qxf4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r1rk1/1b2bp1p/pN2qnp1/4pR2/1p2P3/3PB1Q1/PP4PP/2N1R2K w - - 0 1"]
+
+1. Rxe5 Bd6 2. Rxe6 Bxg3 3. Rxf6 Bxe1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r3k2r/pp3pp1/3Rbb2/q3p3/4P2P/2N1Q3/PPP1BP2/2K3R1 b kq - 0 1"]
+
+1... Bxa2 2. Bb5+ Kf8 3. Rxf6 gxf6 4. Qc5# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k2r3/1p1r1p1p/1Qp5/2P3p1/3q4/R5P1/PP3P1P/5BK1 b - - 0 1"]
+
+1... Re1 2. Qa7+ Kc8 3. Qa8+ Kc7 4. Qa5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "3Q1bk1/r1n2p1p/1q1p2p1/pPpP4/1nB2B2/5N2/1P3PPP/4R1K1 b - - 0 1"]
+
+1... Ncxd5 2. Qxf8+ Kxf8 3. Bh6+ Kg8 4. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "1R5k/8/p4P1p/2p1NK2/5P2/r7/7P/4q1r1 b - - 0 1"]
+
+1... Rg8 2. Ng6+ Kh7 3. Rb7+ Rg7 4. Rxg7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/p4p2/5n2/8/6P1/5Q2/PP1q1KP1/R4R1r w - - 0 1"]
+
+1. Qe2 Nxg4+ 2. Kf3 Nh2+ 3. Kf2 Qf4+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/ppb5/2p4p/2Ppq1pQ/7r/1Pn3N1/5PPP/1B3RK1 w - - 0 1"]
+
+1. Qg6 Ne2+ 2. Kh1 Qf4 3. Re1 Rxh2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/q4ppp/pb2p3/3p1b2/1P3B2/P3PP2/3QB1PP/5RK1 w - - 0 1"]
+
+1. Rc1 Rxc1+ 2. Qxc1 e5 3. Qc6 Bd7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3kb1r/1p1b1pqp/p3p1p1/1B2p3/Q7/2N1P3/PPP3PP/R4RK1 b kq - 0 1"]
+
+1... Bxb5 2. Nxb5 O-O-O 3. Qc4+ Kb8 4. Qc7+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "5rkr/ppN1b1pp/3q4/6NP/1R6/2pnB1Q1/P3K1B1/R7 b - - 0 1"]
+
+1... Qxg3 2. Bd5+ Rf7 3. Bxf7+ Kf8 4. Nce6# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6k1/6p1/p3p2p/2N3Q1/1pP4K/1P2P1P1/P4q1P/8 w - - 0 1"]
+
+1. Qg4 Qxh2+ 2. Qh3 g5+ 3. Kg4 Qe2# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r2r2/ppq2p1k/4p1pP/3nP1B1/4Q3/2P5/PP6/2KR3R b - - 0 1"]
+
+1... Nxc3 2. bxc3 Qxc3+ 3. Kb1 Rc4 4. Bd2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2rq3k/1b6/4pnQ1/pn1p4/N7/1P3P2/2B3PP/4R1K1 w - - 0 1"]
+
+1. Rxe6 Rxc2 2. Rxf6 Rc1+ 3. Kf2 Rc2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "2r2r1k/1p2bppp/p1b1pn1B/4N3/5P1Q/2N3R1/PqP3PP/4R2K b - - 0 1"]
+
+1... gxh6 2. Qxh6 Ne8 3. Qxf8+ Bxf8 4. Nxf7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2Bk1/ppp2ppp/1b6/4q3/1np1N3/7P/PP3PP1/R2QR1K1 b - - 0 1"]
+
+1... Kxf8 2. Qd8+ Qe8 3. Qxe8+ Kxe8 4. Nf6+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/Q3pp1p/6p1/P3qb2/8/5B2/2r2PPP/R4RK1 w - - 0 1"]
+
+1. a6 Qxa1 2. Rxa1 Rc1+ 3. Bd1 Rxa1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/p7/1pn3p1/2p2k1P/2P2B2/PP1K3P/8/8 w - - 0 1"]
+
+1. h6 Kxf4 2. h7 Ne5+ 3. Kc3 Nf7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2R5/5k1p/pb4p1/5p2/1P1n4/6P1/P4P1P/6K1 b - - 0 1"]
+
+1... a5 2. Rb8 Bc7 3. Rb7 Ne6 4. bxa5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r1k1/4bpp1/pp2pn1p/2qrBN2/P3R3/1P4Q1/2P3PP/5R1K b - - 0 1"]
+
+1... exf5 2. Bxf6 g6 3. Rxe7 Rxe7 4. Qb8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "r2r4/5pkp/2p1p1p1/2q5/1p3QP1/1B2PP2/P3K2n/6RR w - - 0 1"]
+
+1. Rxh2 Rxa2+ 2. Bxa2 Qc2+ 3. Ke1 Rd1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/6qp/1p2p3/p3Pp2/2N1n3/1P2P1Pp/1Q3P1K/R3R3 b - - 0 1"]
+
+1... f4 2. exf4 Rxf4 3. Rxe4 Rxe4 4. f3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5r1p/P1Rp2pk/3N3q/1N3Pb1/2Q3Pn/6K1/8 w - - 0 1"]
+
+1. Nf6 Rxf6 2. Qxf6 Bf3+ 3. Kf1 Qb5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4kr1/pp3p1p/1q6/2b1N2Q/1p1Nn3/7b/PB1P1PPP/R4RK1 b - - 0 1"]
+
+1... Rxg2+ 2. Kh1 Nxf2+ 3. Rxf2 Rxf2 4. Qxh3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/pp1k1pp1/3Pp2p/3n4/8/3q1N2/PP3PPP/2R3K1 b - - 0 1"]
+
+1... Kxd6 2. Rd8+ Ke7 3. Rd7+ Kf6 4. Rxf7+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r1qr1k1/np3p2/1R1p2p1/p1nP3p/P1NbPP2/2N2BPb/3B3P/1Q2R2K b - - 0 1"]
+
+1... Nd3 2. Qxd3 Bxb6 3. Nxb6 Qxb6 4. Be3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/pp1bbpp1/7p/3p1P1Q/3B4/3BP3/PP1q2PP/5RK1 w - - 0 1"]
+
+1. f6 Bxf6 2. Bxf6 Qxe3+ 3. Kh1 Qxd3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4r1k/6pp/p2R2n1/4qp2/2BQ4/4B3/1Pb3PP/5R1K w - - 0 1"]
+
+1. Rxg6 Qxd4 2. Bxd4 hxg6 3. Rf3 Bd1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k1rr3/p1p5/1p3n2/5bQ1/1PP5/P3p3/KB3qP1/2R1RB2 b - - 0 1"]
+
+1... Rd2 2. Qxf6 Bb1+ 3. Kxb1 Qxf6 4. Bxf6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4r2k/6pp/p1q2b2/1p1rp3/2p3Q1/P5P1/1P2R1BP/4R2K w - - 0 1"]
+
+1. Rd2 e4 2. Bxe4 Rxd2 3. Bxc6 Rxe1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "2kr3r/pp2ppbp/8/2p1P1p1/4Q3/2P1P3/Pq2NPPP/R3K2R w KQ - 0 1"]
+
+1. Rb1 Qd2+ 2. Kf1 Qd1+ 3. Rxd1 Rxd1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3k4/3B4/3b3p/2p5/3pn2P/r7/P4r2/2NQ2KR w - - 0 1"]
+
+1. Rh3 Rxh3 2. Bxh3 Bh2+ 3. Kh1 Ng3# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r2k2r/p2nbppp/2pp4/q5P1/npbPPN2/1P2B3/P1P1N2P/1K1RQB1R w k - 0 1"]
+
+1. bxc4 Nc3+ 2. Nxc3 bxc3+ 3. Ka1 Rb2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r3bk1/5R1p/1q6/Bp6/2p5/P2Pr1P1/Q5KP/5R2 b - - 0 1"]
+
+1... Qxa5 2. Rxf8+ Rxf8 3. Rxf8+ Kxf8 4. Qf2+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4r2k/1Q4p1/P6p/6r1/4n3/5p2/5P1P/1R5K w - - 0 1"]
+
+1. Rf1 Nxf2+ 2. Rxf2 Re1+ 3. Rf1 Rxf1# 0-1
+

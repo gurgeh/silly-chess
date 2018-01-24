@@ -1,8 +1,13 @@
-application: silly-chess
-version: alpha-002
 runtime: python27
 api_version: 1
 threadsafe: true
+
+skip_files:
+  - ^data$
+  - ^tactics$
+  - ^\.git$
+  - .+\.p$
+  - ^\.zip$
 
 handlers:
 

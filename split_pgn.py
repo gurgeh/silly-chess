@@ -4,7 +4,6 @@ import chess.pgn
 
 
 class Splitter(chess.pgn.BaseVisitor):
-
     def __init__(self, turn):
         chess.pgn.BaseVisitor.__init__(self)
         self.games = set()
@@ -29,6 +28,15 @@ def split_pgns(s, turn):
     for offset in chess.pgn.scan_offsets(StringIO.StringIO(s)):
         lines.extend(split_pgn(s[offset:], turn))
     return lines
+
+
+def fix_ask(lines):
+    for l in lines:
+        for i, move in enumerate(l):
+            if i % 2:
+                move['ask'] = True
+            else:
+                move['ask'] = False
 
 
 def split_pgn(s, turn):
@@ -64,7 +72,11 @@ def split_pgn(s, turn):
             curline.pop()
 
     rec_split(g)
-    return lines
+    if 'FEN' in g.headers:
+        fix_ask(lines)
+    return [(line, g.headers) for line in lines
+            if 'FEN' not in g.headers or len(line) % 2 == 0]
+
 
 if __name__ == '__main__':
     import sys

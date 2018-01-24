@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/chessboard-0.3.0.min.css" />
   </head>
-  <body>
-    <div id="maincol" style="max-width:600px">
+  <body style="overflow: hidden;">
+    <div id="maincol">
       <div id="toptext">
         <span id="message"></span>&nbsp;<span id="status" style="float: right;text-align: right">&nbsp;</span>
       </div>
-      <div id="board"></div>
+      <div id="board" style="max-width:95vw; width: 80vh;"></div>
       <div id="comment"></div>
       <div id="pgn">pgn</div>
     </div>
